@@ -66,7 +66,7 @@ fun Post(
 }
 
 @Composable
-fun Header(post: PostModel, onJoinButtonClick: (Boolean) -> Unit = {}) {
+Header(post: PostModel, onJoinButtonClick: (Boolean) -> Unit = {}) {
     Row(
         modifier = Modifier.padding(start = 16.dp),
         verticalAlignment = Alignment.CenterVertically
